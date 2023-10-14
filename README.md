@@ -2,7 +2,7 @@
  Spam Email detection using Natural Language Processing
 
 
-Abstract
+### Abstract
 
 Email Spam has become a major problem nowadays, with the Rapid growth of internet
 users, Email spam is also increasing. People are using them for illegal and unethical
@@ -12,7 +12,7 @@ which are fraudulent, this project will identify those spam by using a naive bas
 classifier, we have implemented and applied this algorithm to our data sets and this
 algorithm is selected for email spam detection.
 
-Introduction
+### Introduction
 
 We get hundreds of messages from unknown sources and our inbox is filled with
 unwanted emails. These unwanted messages are called spam and essential messages
@@ -29,7 +29,8 @@ reading them. In this project, we propose to classify data in the messages as ei
 
 Figure 1 : Email spam Detection diagram
 
-Objective
+### Objective
+
 The objective of email spam detection using NLP is to develop a model that can
 accurately classify incoming emails as either spam or not spam (also known as ham)
 based on the textual content of the email. This involves using natural language
@@ -38,7 +39,8 @@ train a machine learning algorithm to classify the emails. The ultimate goal is 
 the number of unwanted and potentially harmful emails that make it into users&#39;
 inboxes, thereby improving email security and efficiency.
 
-Dataset
+### Dataset
+
 
 Let’s start with our spam detection data. We’ll be using the open-source Spam base
 dataset from the UCI machine learning repository, a dataset that contains 5569 emails,
@@ -48,7 +50,8 @@ anything else is mapped to 0. The target variable can be thought of as what you 
 trying to predict. In machine learning problems, the value of this variable will be
 modeled and predicted by other variables.
 
-Naive Bayes classifier
+### Naive Bayes classifier
+
  The Naive Bayes algorithm is a supervised learning algorithm, which is based on
 the Bayes theorem and used for solving classification problems.
  It is mainly used in text classification that includes a high-dimensional training
@@ -61,7 +64,8 @@ an object.
  Some popular examples of the Naive Bayes Algorithm are spam filtration,
 Sentimental analysis, and classifying articles.
 
-Problem
+### Problem
+
  Time and productivity loss: Spam emails can be time-consuming and distracting,
 causing users to spend more time sorting through their emails reducing overall
 productivity.
@@ -70,7 +74,7 @@ sites, which can lead to identity theft, data breaches, and other security risks
  Email server overload: large volumes of spam emails can overload email servers,
 reducing their efficiency and potentially causing them to crash.
 
-Workflow of project
+### Workflow of project
 
 ![download](https://user-images.githubusercontent.com/54437743/224355332-0da6abf3-ae35-43fc-9732-f48c4582f951.png)
 
@@ -107,7 +111,9 @@ Figure 4 : Project Implementation (Entered data is classified as not a spam by t
 
 In our project we have made a flask website which takes input from the user and
 classifies if the email is spam or not a spam using naive bayes algorithm.
-Conclusion
+
+### Conclusion
+
 In conclusion, email spam detection using NLP techniques such as CountVectorizer and
 Naive Bayes is an important application of machine learning and natural language
 processing. By automatically identifying and filtering out spam emails, this technology
